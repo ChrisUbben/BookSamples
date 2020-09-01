@@ -29,3 +29,10 @@
 *.dSYM/
 *.idb
 *.pdb
+
+# Visual studio
+*.user
+*.filters
+.vs/
+obj/
+out/
