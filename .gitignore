@@ -1,0 +1,31 @@
+# Object files
+*.o
+*.ko
+*.obj
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.idb
+*.pdb
