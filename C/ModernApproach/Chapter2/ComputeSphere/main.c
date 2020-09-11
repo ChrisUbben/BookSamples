@@ -6,21 +6,19 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-#define FREEZING_POINT 32.0f
-#define SCALE_FACTOR (5.0f / 9.0f)
+#define PI 3.141592654f
 
 #include <stdio.h>
 
 int main(void)
 {
-    float fahrenheit; // Temp in Fahrenheit
-    float celcius; // Temp in Celcius
+    float radius;
+    printf("Enter sphere radius: ");
+    scanf("%f", &radius);
 
-    printf("Enter temperature in Fahrenheit: ");
-    scanf("%f", &fahrenheit);
+    float volume = (4.0f / 3.0f) * PI * (radius * radius * radius);
 
-    celcius = (fahrenheit - FREEZING_POINT) * SCALE_FACTOR;
-    printf("Temperature in Celcius: %.2f\n", celcius);
+    printf("Volume: %.2f\n", volume);
 
     return 0;
 }
