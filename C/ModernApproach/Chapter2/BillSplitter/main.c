@@ -6,8 +6,6 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-#define SALES_TAX_RATE 0.079f
-
 #include <stdio.h>
 
 int main(void)
