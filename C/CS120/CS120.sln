@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "Fundamentals\HelloWorld\HelloWorld.vcxproj", "{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algebra", "Fundamentals\Algebra\Algebra.vcxproj", "{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugClang|x64 = DebugClang|x64
+		DebugClang|x86 = DebugClang|x86
+		DebugMSBuild|x64 = DebugMSBuild|x64
+		DebugMSBuild|x86 = DebugMSBuild|x86
+		ReleaseClang|x64 = ReleaseClang|x64
+		ReleaseClang|x86 = ReleaseClang|x86
+		ReleaseMSBuild|x64 = ReleaseMSBuild|x64
+		ReleaseMSBuild|x86 = ReleaseMSBuild|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugClang|x64.ActiveCfg = DebugClang|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugClang|x64.Build.0 = DebugClang|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugClang|x86.ActiveCfg = DebugClang|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugClang|x86.Build.0 = DebugClang|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugMSBuild|x64.ActiveCfg = DebugMSBuild|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugMSBuild|x64.Build.0 = DebugMSBuild|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugMSBuild|x86.ActiveCfg = DebugMSBuild|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.DebugMSBuild|x86.Build.0 = DebugMSBuild|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseClang|x64.ActiveCfg = ReleaseClang|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseClang|x64.Build.0 = ReleaseClang|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseClang|x86.ActiveCfg = ReleaseClang|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseClang|x86.Build.0 = ReleaseClang|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseMSBuild|x64.ActiveCfg = ReleaseMSBuild|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseMSBuild|x64.Build.0 = ReleaseMSBuild|x64
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseMSBuild|x86.ActiveCfg = ReleaseMSBuild|Win32
+		{2ACEA402-3822-4C28-9DFD-3F3B4F231FC1}.ReleaseMSBuild|x86.Build.0 = ReleaseMSBuild|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugClang|x64.ActiveCfg = DebugClang|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugClang|x64.Build.0 = DebugClang|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugClang|x86.ActiveCfg = DebugClang|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugClang|x86.Build.0 = DebugClang|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugMSBuild|x64.ActiveCfg = DebugMSBuild|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugMSBuild|x64.Build.0 = DebugMSBuild|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugMSBuild|x86.ActiveCfg = DebugMSBuild|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.DebugMSBuild|x86.Build.0 = DebugMSBuild|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseClang|x64.ActiveCfg = ReleaseClang|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseClang|x64.Build.0 = ReleaseClang|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseClang|x86.ActiveCfg = ReleaseClang|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseClang|x86.Build.0 = ReleaseClang|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseMSBuild|x64.ActiveCfg = ReleaseMSBuild|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseMSBuild|x64.Build.0 = ReleaseMSBuild|x64
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseMSBuild|x86.ActiveCfg = ReleaseMSBuild|Win32
+		{DB6553A9-7FE9-45C9-8AB1-C11F3D2D376C}.ReleaseMSBuild|x86.Build.0 = ReleaseMSBuild|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45130EBB-B81B-4D48-BC3D-167EC8356974}
+	EndGlobalSection
+EndGlobal
