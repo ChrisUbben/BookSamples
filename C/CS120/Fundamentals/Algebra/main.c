@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(void)
 {
     /* Compiler generated assembly output:
@@ -43,6 +45,8 @@ int main(void)
     int c = 3;
     int d = 4;
     int e = a * b * (c + d);
+
+    printf("%i\n", e);
 
     return 0;
 }
